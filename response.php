@@ -14,7 +14,7 @@ try {
 
     $text = $data->text;
 
-    $client = new Client("AIzaSyAwfRSAeCdCTV_MItV6rp1uQivR5xZaxnw");
+    $client = new Client("GEMINI_API");
 
     $response = $client->geminiPro()->generateContent(
         new TextPart($text),
