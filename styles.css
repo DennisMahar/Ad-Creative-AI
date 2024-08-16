@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    overflow: hidden;
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(90deg, #0056b3, #007bff);
+}
+
+#statusMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.response-output p {
+    margin: 10px 0;
+}
+
+.response-output .error {
+    color: red;
+    font-weight: bold;
+}
